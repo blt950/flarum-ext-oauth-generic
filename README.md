@@ -53,7 +53,13 @@ php flarum cache:clear
 ## Requests and Issues
 Please file a pull request if you find issues or want to expand the functionality. Thank you for contributing.
 
+### Known quirks and bugs
+- The nickname input field in signup modal fills in username regardless of display name is provided. This is due to get fixed [in this pull request for a future Flarum version](https://github.com/flarum/framework/pull/4004)
+- The icon of provider in admin panel is invisible due to FoF OAuth plugin forces a font-weight that won't display the font, it shows correctly other places though.
+- The force settings are a boolean but have a string input, simply because boolean values are not supported for provider settings.
+
 ## Links
 
 - [Packagist](https://packagist.org/packages/blt950/oauth-generic)
 - [GitHub](https://github.com/blt950/flarum-ext-oauth-generic)
+- [Discuss](https://discuss.flarum.org/d/34777-generic-and-customized-oauth2)
