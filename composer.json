@@ -1,0 +1,55 @@
+{
+    "name": "blt950/oauth-generic",
+    "description": "Generic OAuth2 provider for Flarum",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0",
+        "fof/oauth": "^1.3"
+    },
+    "authors": [
+        {
+            "name": "Blt950",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "blt950\\OauthGeneric\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Generic FoF OAuth",
+            "category": "",
+            "icon": {
+                "name": "fas fa-lock",
+                "color": "#fff",
+                "backgroundColor": "#4e73df"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": true,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
