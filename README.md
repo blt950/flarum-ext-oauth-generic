@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/blt950/oauth-generic.svg)](https://packagist.org/packages/blt950/oauth-generic) [![Total Downloads](https://img.shields.io/packagist/dt/blt950/oauth-generic.svg)](https://packagist.org/packages/blt950/oauth-generic)
 
-A [Flarum](http://flarum.org) extension. Reddit oauth provider for Flarum
+A [Flarum](http://flarum.org) extension. Generic oauth provider for Flarum
 
 ![](https://extiverse.com/extension/blt950/oauth-generic/open-graph-image)
 
